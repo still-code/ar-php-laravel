@@ -23,7 +23,7 @@ class ArPhpLaravel
     {
         $Arabic = new \ArPHP\I18N\Arabic();
 
-        return ( $Arabic->arSentiment($text) > 0 )
+        return ($Arabic->arSentiment($text) > 0)
             ? __('arPhpLaravel::arPhpLaravel.positive')
             : __('arPhpLaravel::arPhpLaravel.negative');
     }
@@ -47,7 +47,7 @@ class ArPhpLaravel
     {
         $Arabic = new \ArPHP\I18N\Arabic();
 
-        return ( $Arabic->isFemale($text) === true )
+        return ($Arabic->isFemale($text) === true)
             ? __('arPhpLaravel::arPhpLaravel.female')
             : __('arPhpLaravel::arPhpLaravel.male');
     }
