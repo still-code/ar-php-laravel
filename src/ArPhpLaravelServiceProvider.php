@@ -11,7 +11,7 @@ class ArPhpLaravelServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'arPhpLaravel');
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'arPhpLaravel');
     }
 
     /**
