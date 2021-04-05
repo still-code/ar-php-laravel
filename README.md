@@ -6,6 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/atm-code/ar-php-laravel)](https://packagist.org/packages/atm-code/ar-php-laravel)
 [![Github Stars](https://img.shields.io/github/stars/atm-code/ar-php-laravel)](https://github.com/atm-code/ar-php-laravel)
 
+this is just a wrapper for the Ar-PHP Library, for more details checkout [khaled-alshamaa: ar-php](https://github.com/khaled-alshamaa/ar-php) 
 ## Installation
 
 You can install the package via composer:
@@ -40,7 +41,7 @@ If you discover any security related issues, please email wh7r.com@gmail.com ins
 
 ## Credits
 
-- [Ashraf Monshi](https://github.com/atm-code)
+- [Khaled Alshamaa](https://github.com/khaled-alshamaa)
 - [All Contributors](../../contributors)
 
 ## License
