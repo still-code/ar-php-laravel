@@ -1,12 +1,10 @@
-# Very short description of the package
+# laravel package for the Ar-PHP Project
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/atm-code/ar-php-laravel)](https://packagist.org/packages/atm-code/ar-php-laravel)
 [![Build Status](https://img.shields.io/travis/com/atm-code/ar-php-laravel)](https://travis-ci.com/atm-code/ar-php-laravel)
 [![StyleCI](https://github.styleci.io/repos/354853609/shield?branch=main)](https://github.styleci.io/repos/354853609?branch=main)
 [![Total Downloads](https://img.shields.io/packagist/dt/atm-code/ar-php-laravel)](https://packagist.org/packages/atm-code/ar-php-laravel)
 [![Github Stars](https://img.shields.io/github/stars/atm-code/ar-php-laravel)](https://github.com/atm-code/ar-php-laravel)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
@@ -19,7 +17,7 @@ composer require atm-code/ar-php-laravel
 ## Usage
 
 ``` php
-// Usage description here
+dump(ArPhpLaravel::int2str(1229));
 ```
 
 ### Testing
