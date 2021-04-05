@@ -3,8 +3,7 @@
     "description": "ar-php-laravel",
     "keywords": [
         "atm-code",
-        "ar-php-laravel",
-        "ar-php"
+        "ar-php-laravel"
     ],
     "homepage": "https://github.com/atm-code/ar-php-laravel",
     "license": "MIT",
@@ -18,20 +17,27 @@
     ],
     "require": {
         "php": "^7.1",
-        "illuminate/support": "^6.0"
+        "illuminate/support": "^8.0",
+        "khaled.alshamaa/ar-php": "^6.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3.3"
     },
     "autoload": {
+        "files": [
+            "helpers.php"
+        ],
         "psr-4": {
-            "AtmCode\\ArPhp\\": "src"
+            "AtmCode\\ArPhpLaravel\\": "src"
         }
     },
     "autoload-dev": {
+        "files": [
+            "helpers.php"
+        ],
         "psr-4": {
-            "AtmCode\\ArPhp\\Tests\\": "tests"
+            "AtmCode\\ArPhpLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AtmCode\\ArPhp\\ArPhpServiceProvider"
+                "AtmCode\\ArPhpLaravel\\ArPhpLaravelServiceProvider"
             ],
             "aliases": {
-                "ArPhp": "AtmCode\\ArPhp\\ArPhpFacade"
+                "ArPhpLaravel": "AtmCode\\ArPhpLaravel\\ArPhpLaravelFacade"
             }
         }
     }

@@ -1,13 +1,10 @@
 <?php
 
-namespace AtmCode\ArPhp;
+namespace AtmCode\ArPhpLaravel;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \AtmCode\ArPhpLaravel\Skeleton\SkeletonClass
- */
-class ArPhpFacade extends Facade
+class ArPhpLaravelFacade extends Facade
 {
     /**
      * Get the registered name of the component.

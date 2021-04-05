@@ -1,4 +1,4 @@
-# laravel package for the Ar-PHP Project
+# Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/atm-code/ar-php-laravel.svg?style=flat-square)](https://packagist.org/packages/atm-code/ar-php-laravel)
 [![Build Status](https://img.shields.io/travis/atm-code/ar-php-laravel/master.svg?style=flat-square)](https://travis-ci.org/atm-code/ar-php-laravel)
