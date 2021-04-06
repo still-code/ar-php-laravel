@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/atm-code/ar-php-laravel)](https://packagist.org/packages/atm-code/ar-php-laravel)
 [![Github Stars](https://img.shields.io/github/stars/atm-code/ar-php-laravel)](https://github.com/atm-code/ar-php-laravel)
 
-this is just a wrapper for the Ar-PHP Library, for more details checkout [khaled-alshamaa: ar-php](https://github.com/khaled-alshamaa/ar-php) 
+this is just a wrapper to use with laravel for the Ar-PHP Library, for more details checkout [khaled-alshamaa: ar-php](https://github.com/khaled-alshamaa/ar-php) 
 ## Installation
 You can install the package via composer:
 ```bash
@@ -76,6 +76,3 @@ If you discover any security related issues, please email wh7r.com@gmail.com ins
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
