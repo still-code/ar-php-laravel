@@ -10,7 +10,7 @@ class ArPhpLaravel
 
         $Arabic->setNumberFeminine($numberFeminine);
         $Arabic->setNumberFormat($numberFormat);
-        if($setNumberOrder !== null){
+        if ($setNumberOrder !== null) {
             $Arabic->setNumberOrder($setNumberOrder);
         }
 
@@ -73,12 +73,12 @@ class ArPhpLaravel
 
     public static function arSummary($text, $keywords, $int, $mode, $output, $style = null)
     {
-        return ( new \ArPHP\I18N\Arabic() )->arSummary($text,$keywords, $int, $mode, $output, $style);
+        return ( new \ArPHP\I18N\Arabic() )->arSummary($text, $keywords, $int, $mode, $output, $style);
     }
 
     public static function money2str($number, $iso = 'SAR', $lang = 'ar')
     {
-        return ( new \ArPHP\I18N\Arabic() )->money2str($number,$iso,$lang);
+        return ( new \ArPHP\I18N\Arabic() )->money2str($number, $iso, $lang);
     }
 
     public static function int2indic($number)
