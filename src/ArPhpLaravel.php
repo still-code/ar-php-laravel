@@ -4,19 +4,24 @@ namespace AtmCode\ArPhpLaravel;
 
 class ArPhpLaravel
 {
-    public function hi()
-    {
-        return 'back';
-    }
-
-    public static function int2str($integer, $numberFeminine = 1, $numberFormat = 1)
+    public static function int2str($integer, $numberFeminine = 1, $numberFormat = 1, $setNumberOrder = null)
     {
         $Arabic = new \ArPHP\I18N\Arabic();
 
         $Arabic->setNumberFeminine($numberFeminine);
         $Arabic->setNumberFormat($numberFormat);
+        if($setNumberOrder !== null){
+            $Arabic->setNumberOrder($setNumberOrder);
+        }
 
         return $Arabic->int2str($integer);
+    }
+
+    public static function str2int($number)
+    {
+        $Arabic = new \ArPHP\I18N\Arabic();
+
+        return $Arabic->str2int($number);
     }
 
     public static function arSentiment($text)
@@ -64,5 +69,20 @@ class ArPhpLaravel
     public static function standard($text)
     {
         return ( new \ArPHP\I18N\Arabic() )->standard($text);
+    }
+
+    public static function arSummary($text, $keywords, $int, $mode, $output, $style = null)
+    {
+        return ( new \ArPHP\I18N\Arabic() )->arSummary($text,$keywords, $int, $mode, $output, $style);
+    }
+
+    public static function money2str($number, $iso = 'SAR', $lang = 'ar')
+    {
+        return ( new \ArPHP\I18N\Arabic() )->money2str($number,$iso,$lang);
+    }
+
+    public static function int2indic($number)
+    {
+        return ( new \ArPHP\I18N\Arabic() )->int2indic($number);
     }
 }
