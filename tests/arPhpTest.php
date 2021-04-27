@@ -25,7 +25,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::int2str(123);
 
-        $this->assertSame('مئة و ثلاثة و عشرون',$output);
+        $this->assertSame('مئة و ثلاثة و عشرون', $output);
     }
 
     /** @test */
@@ -33,7 +33,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::int2str('مئة و ثلاثة و عشرون');
 
-        $this->assertSame('صفر',$output);
+        $this->assertSame('صفر', $output);
     }
 
     /** @test */
@@ -41,7 +41,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::str2int('مئة و ثلاثة و عشرون');
 
-        $this->assertSame(123,$output);
+        $this->assertSame(123, $output);
     }
 
     /** @test */
@@ -49,7 +49,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::str2int(123);
 
-        $this->assertSame(0,$output);
+        $this->assertSame(0, $output);
     }
 
     /** @test */
@@ -73,7 +73,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::guessGender('محمد');
 
-        $this->assertSame('Male',$output);
+        $this->assertSame('Male', $output);
     }
 
     /** @test */
@@ -81,14 +81,14 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::guessGender('خديجة');
 
-        $this->assertSame('Female',$output);
+        $this->assertSame('Female', $output);
     }
 
     /** @test */
     public function it_convert_mony_to_text()
     {
-        $output = ArPhpLaravel::money2str(123, 'SAR','ar');
+        $output = ArPhpLaravel::money2str(123, 'SAR', 'ar');
 
-        $this->assertSame('مئة و ثلاثة و عشرون ريالا',$output);
+        $this->assertSame('مئة و ثلاثة و عشرون ريالا', $output);
     }
 }
