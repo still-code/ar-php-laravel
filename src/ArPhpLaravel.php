@@ -85,10 +85,9 @@ class ArPhpLaravel
     {
         return ( new \ArPHP\I18N\Arabic() )->int2indic($number);
     }
-    
+
     public static function utf8Glyphs($text)
     {
         return ( new \ArPHP\I18N\Arabic() )->utf8Glyphs($text);
     }
-
 }
