@@ -34,22 +34,31 @@ dump(ArPhpLaravel::int2str(1229));
 and more coming...
 
 ### Examples
-to use Ar Search with laravel Models, add to your mode the trait
+Useing search for arabic letters with Eloquent Builder
 ```php
-use AtmCode\ArPhpLaravel\SearchAr;
-
-class Pages extends Model
-{
-    use SearchAr;
-}
+Model::searchAr('content','فلسطين')->get();
 ```
 
-then, you can simply do:
+
+you can use the same with Query Builder:
 ```php
-Pages::searchAr('content','فلسطين')->get();
+DB::table('table_name')->searchAr('content','فلسطين')->get();
 ```
+
+
+you can set the search mode `OR` (default) or `AND`
+```php
+DB::table('table_name')->searchAr('content','فلسطين','OR')->get();
+```
+
+
 and it will find result for any of the words:
 >فلسطينيون فلسطيني فلسطينية فلسطينيتين فلسطينيين فلسطينيان فلسطينيات فلسطينيوا
+
+you can also sort the results by using:
+```php
+DB::table('table_name')->orderAr('content','فلسطين')->get();
+```
 
 ### Testing
 ``` bash
@@ -67,9 +76,9 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 - [All Contributors](../../contributors)
 
 ## Todo
-- write tests
-- add helpers for the Facade
+- write more tests
 - add more functions from the main package
+- add helpers for the Facade
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
