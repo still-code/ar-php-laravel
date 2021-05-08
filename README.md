@@ -30,6 +30,7 @@ dump(ArPhpLaravel::int2str(1229));
 - arSummary
 - money2str
 - int2indic
+- utf8Glyphs
 
 and more coming...
 

@@ -6,5 +6,10 @@ All notable changes to `ar-php-laravel` will be documented in this file
 - remove `trait SearchAr` in favoer of using macrables
 - adding macros for Query Builder and Eloquent Builder
 
+
+## 1.2.0 - 2021-01-08
+- add `utf8Glyphs` function
+
+
 ## 1.0.0 - 2021-04-06
 - initial release
