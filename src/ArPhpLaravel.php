@@ -94,7 +94,7 @@ class ArPhpLaravel
     public static function plural($singular, $count, $plural2 = null, $plural3 = null, $plural4 = null)
     {
         $Arabic = new \ArPHP\I18N\Arabic();
-        $text   = $Arabic->arPlural($singular, $count, $plural2, $plural3, $plural4);
+        $text = $Arabic->arPlural($singular, $count, $plural2, $plural3, $plural4);
 
         return str_replace('%d', $count, $text);
     }
