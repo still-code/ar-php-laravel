@@ -3,7 +3,7 @@
 All notable changes to `ar-php-laravel` will be documented in this file
 
 ## 1.3.0 - 2021-05-08
-- remove `trait SearchAr` in favoer of using macrables
+- remove `trait SearchAr` in favor of using macrables
 - adding macros for Query Builder and Eloquent Builder
 
 
