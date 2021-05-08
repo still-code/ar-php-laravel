@@ -1,4 +1,5 @@
 <?php
+
 namespace AtmCode\ArPhpLaravel;
 
 class Macroables
@@ -7,7 +8,7 @@ class Macroables
     {
         $Arabic = new \ArPHP\I18N\Arabic();
         $Arabic->setQueryStrFields($field);
-        $setMode = ( $mode === 'AND' ) ? 1 : 0;
+        $setMode = ($mode === 'AND') ? 1 : 0;
         $Arabic->setQueryMode($setMode);
         $strCondition = $Arabic->arQueryWhereCondition($search);
 
