@@ -13,19 +13,19 @@ composer require atm-code/ar-php-laravel
 ```
 
 ### Available functions
-####Spell Numbers in the Arabic Idiom
+#### Spell Numbers in the Arabic Idiom
 ``` php
 dump(ArPhpLaravel::int2str(123)); // مئة و ثلاثة و عشرون
 dump(ArPhpLaravel::str2int('مئة و ثلاثة و عشرون')); // 123
 ```
 
-####English-Arabic Transliteration
+#### English-Arabic Transliteration
 ``` php
 dump(ArPhpLaravel::en2ar('google')); // غوغل
 dump(ArPhpLaravel::ar2en('خالِد الشَمعَة')); // Khalid Ash-Sham'ah
 ```
 
-####Arabic Gender Guesser
+#### Arabic Gender Guesser
 Check the Gender
 ``` php
 dump(ArPhpLaravel::isFemale('محمد')); // false
@@ -35,39 +35,39 @@ get the gender as string
 dump(ArPhpLaravel::guessGender('محمد')); // Male
 ```
 
-####Parse any Arabic textual datetime description into timestamp
+#### Parse any Arabic textual datetime description into timestamp
 ``` php
 dump(ArPhpLaravel::strtotime('الخميس القادم', time(), 'l dS F Y'))); // Thursday 13th May 2021
 ```
 
-####Arabic Sentiment Analysis
+#### Arabic Sentiment Analysis
 ``` php
 dump(ArPhpLaravel::arSentiment(TEXT));
 ```
 
-####Arabic Text Standardize
+#### Arabic Text Standardize
 ``` php
 dump(ArPhpLaravel::standard(TEXT));
 ```
 
-####Arabic Auto Summarize
+#### Arabic Auto Summarize
 ``` php
 dump(ArPhpLaravel::arSummary(TEXT));
 ```
 
-####Convert Money to string
+#### Convert Money to string
 ``` php
 dump(ArPhpLaravel::money2str(123, 'SAR', 'ar')); // مئة و ثلاثة و عشرون ريالا
 dump(ArPhpLaravel::money2str(123, 'SAR', 'en')); // 123 Riyal
 dump(ArPhpLaravel::money2str(123, 'EGP', 'ar')); // مئة و ثلاثة و عشرون جنيها
 ```
 
-####Spell Numbers in the Arabic Idiom
+#### Spell Numbers in the Arabic Idiom
 ``` php
 dump(ArPhpLaravel::int2indic(123)); // ١٢٣
 ```
 
-####Arabic Glyphs to Render Arabic Text
+#### Arabic Glyphs to Render Arabic Text
 ``` php
 dump(ArPhpLaravel::utf8Glyphs(1229));
 ```
