@@ -12,7 +12,7 @@ You can install the package via composer:
 composer require atm-code/ar-php-laravel
 ```
 
-### Available functions
+## Available functions
 #### Spell Numbers in the Arabic Idiom
 ``` php
 dump(ArPhpLaravel::int2str(123)); // مئة و ثلاثة و عشرون
@@ -100,12 +100,16 @@ you can also sort the results by using:
 DB::table('table_name')->orderAr('content','فلسطين')->get();
 ```
 
-### Testing
+## Used By
+This project is used by the following companies:
+- [arabkey - عرب كيبورد](https://arabkey.site)
+
+## Testing
 ``` bash
 composer test
 ```
 
-### Changelog
+## Changelog
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## Contributing
