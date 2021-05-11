@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.1",
         "illuminate/support": "^8.0",
-        "khaled.alshamaa/ar-php": "^6.0"
+        "khaled.alshamaa/ar-php": "^6.1"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
