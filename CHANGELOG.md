@@ -8,7 +8,6 @@
 <a href="https://github.com/atm-code/ar-php-laravel"><img src="https://img.shields.io/github/stars/atm-code/ar-php-laravel" /></a>
 </p>
 
-
 # laravel package for the Ar-PHP Project
 
 this is just a wrapper to use with laravel for the Ar-PHP Library, for more details checkout [khaled-alshamaa: ar-php](https://github.com/khaled-alshamaa/ar-php)
