@@ -2,12 +2,12 @@
 
 All notable changes to `bolt` will be documented in this file
 
-## 1.4.0 - 2022-01-31
+## 1.5.0 - 2022-01-31
 
 - add `translate` function, useful for slug generating
 
 
-## 1.3.1 - 2021-08-17
+## 1.4.0 - 2021-08-17
 
 - add support for php 8.0, thanks to @koossaayy
 - pump [ar-php](https://github.com/khaled-alshamaa/ar-php) version to 6.2
