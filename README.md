@@ -77,6 +77,10 @@ dump(ArPhpLaravel::int2indic(123)); // ١٢٣
 dump(ArPhpLaravel::utf8Glyphs(1229));
 ```
 
+#### translate arabic text to english, useful for slug generating
+``` php
+dump(ArPhpLaravel::translate('اهلا بالكل')); // Ahla Balkl
+```
 
 ### Search with Eloquent and query Builder
 Using search for arabic letters with Eloquent Builder

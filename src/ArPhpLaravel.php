@@ -98,4 +98,9 @@ class ArPhpLaravel
 
         return str_replace('%d', $count, $text);
     }
+
+    public static function translate($text)
+    {
+        return ( new \ArPHP\I18N\Arabic() )->ar2en($text);
+    }
 }

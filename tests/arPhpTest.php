@@ -25,7 +25,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::int2str(123);
 
-        $this->assertSame('مئة و ثلاثة و عشرون', $output);
+        $this->assertSame('مئة وثلاثة وعشرون', $output);
     }
 
     /** @test */
@@ -33,7 +33,7 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::int2str('مئة و ثلاثة و عشرون');
 
-        $this->assertSame('صفر', $output);
+        $this->assertSame('', $output);
     }
 
     /** @test */
@@ -89,6 +89,14 @@ class arPhpTest extends TestCase
     {
         $output = ArPhpLaravel::money2str(123, 'SAR', 'ar');
 
-        $this->assertSame('مئة و ثلاثة و عشرون ريالا', $output);
+        $this->assertSame('مئة وثلاثة وعشرون ريالا', $output);
+    }
+
+    /** @test */
+    public function it_can_translate_text()
+    {
+        $output = ArPhpLaravel::translate('اهلا بالكل');
+
+        $this->assertSame('Ahla Balkl', $output);
     }
 }

@@ -3,7 +3,15 @@
     "description": "ar-php-laravel",
     "keywords": [
         "atm-code",
-        "ar-php-laravel"
+        "ar-php-laravel",
+        "laravel",
+        "Arabic",
+        "arabic-sentiment",
+        "arabic-numbers",
+        "arabic-glyphs",
+        "arabic-calendar",
+        "arabic-sql-query",
+        "arabic-segments-identifier"
     ],
     "homepage": "https://github.com/atm-code/ar-php-laravel",
     "license": "MIT",
@@ -25,17 +33,11 @@
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "files": [
-            "helpers.php"
-        ],
         "psr-4": {
             "AtmCode\\ArPhpLaravel\\": "src"
         }
     },
     "autoload-dev": {
-        "files": [
-            "helpers.php"
-        ],
         "psr-4": {
             "AtmCode\\ArPhpLaravel\\Tests\\": "tests"
         }
