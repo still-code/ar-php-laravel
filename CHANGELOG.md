@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `bolt` will be documented in this file
+All notable changes to `ar-php-laravel` will be documented in this file
 
 ## 1.5.0 - 2022-01-31
 
