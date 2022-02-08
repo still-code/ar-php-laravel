@@ -13,6 +13,6 @@ class ArPhpLaravelFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'ar-php-laravel';
+        return ArPhpLaravel::class;
     }
 }
