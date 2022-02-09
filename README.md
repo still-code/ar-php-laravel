@@ -6,9 +6,10 @@
 <a href="https://github.styleci.io/repos/354853609?branch=main"><img src="https://github.styleci.io/repos/354853609/shield?branch=main" /></a>
 <a href="https://packagist.org/packages/atm-code/ar-php-laravel"><img src="https://img.shields.io/packagist/dt/atm-code/ar-php-laravel" /></a>
 <a href="https://github.com/atm-code/ar-php-laravel"><img src="https://img.shields.io/github/stars/atm-code/ar-php-laravel" /></a>
+<a href="https://www.codacy.com/gh/atm-code/ar-php-laravel/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atm-code/ar-php-laravel&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/c9a1e0c873f346a5839222d5e19499fc"/></a>
 </p>
 
-# laravel package for the Ar-PHP Project
+# laravel  package for the Ar-PHP Project
 
 this is just a wrapper to use with laravel for the Ar-PHP Library, for more details checkout [khaled-alshamaa: ar-php](https://github.com/khaled-alshamaa/ar-php)
 ## Installation
