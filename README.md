@@ -17,6 +17,8 @@ You can install the package via composer:
 composer require atm-code/ar-php-laravel
 ```
 
+** hi **
+
 ## Available functions
 #### Spell Numbers in the Arabic Idiom
 ``` php
