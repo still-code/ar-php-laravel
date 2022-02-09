@@ -10,6 +10,8 @@
 
 # laravel package for the Ar-PHP Project
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f29c384964c84699b3f060ba72ccce58)](https://app.codacy.com/gh/atm-code/ar-php-laravel?utm_source=github.com&utm_medium=referral&utm_content=atm-code/ar-php-laravel&utm_campaign=Badge_Grade_Settings)
+
 this is just a wrapper to use with laravel for the Ar-PHP Library, for more details checkout [khaled-alshamaa: ar-php](https://github.com/khaled-alshamaa/ar-php)
 ## Installation
 You can install the package via composer:
