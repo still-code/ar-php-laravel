@@ -8,12 +8,12 @@ use Orchestra\Testbench\TestCase;
 
 class arPhpTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders()
     {
         return [ArPhpLaravelServiceProvider::class];
     }
 
-    protected function overrideApplicationProviders($app)
+    protected function overrideApplicationProviders()
     {
         return [
             'ArPhpLaravel' => 'AtmCode\ArPhpLaravel',
