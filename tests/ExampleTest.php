@@ -7,7 +7,7 @@ use Orchestra\Testbench\TestCase;
 
 class ExampleTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders()
     {
         return [ArPhpLaravelServiceProvider::class];
     }
