@@ -8,7 +8,7 @@ class ArPhpLaravel
     {
         return new \ArPHP\I18N\Arabic();
     }
-  
+
     public static function isArabic($text)
     {
         return self::Arabic()->isArabic($text);
