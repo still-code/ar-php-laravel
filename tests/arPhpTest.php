@@ -23,17 +23,19 @@ class arPhpTest extends TestCase
     /** @test */
     public function it_is_not_arabic_text()
     {
-        $output = ArPhpLaravel::isArabic("Hello there");
+        $output = ArPhpLaravel::isArabic('Hello there');
 
         $this->assertSame(false, $output);
     }
-     /** @test */
+
+    /** @test */
     public function it_is_arabic_text()
     {
-        $output = ArPhpLaravel::isArabic("مرحبا");
+        $output = ArPhpLaravel::isArabic('مرحبا');
 
         $this->assertSame(true, $output);
     }
+
     /** @test */
     public function int2str_convert_number_to_text()
     {
