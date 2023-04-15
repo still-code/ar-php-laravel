@@ -7,7 +7,7 @@ use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
 
 class ExampleTest extends TestCase
 {
-    protected function getPackageProviders()
+    protected function getPackageProviders($app)
     {
         return [ArPhpLaravelServiceProvider::class];
     }

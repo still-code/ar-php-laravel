@@ -1,12 +1,11 @@
-<p align="center"><img src="https://banners.beyondco.de/AR-php%20for%20Laravel.png?theme=light&packageManager=composer+require&packageName=still-code%2Far-php-laravel&pattern=wiggle&style=style_2&description=wrapper+for+Ar-PHP+Library+to+use+with+laravel&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&widths=600&heights=650" width="600"></p>
+<p align="center"><img src="https://banners.beyondco.de/Laravel%20Ar-PHP.png?theme=light&packageManager=composer+require&packageName=still-code%2Far-php-laravel&pattern=brickWall&style=style_1&description=Ar-PHP+wrapper+for+laravel&md=1&showWatermark=1&fontSize=125px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="600"></p>
 
 <p align="center">
 <a href="https://packagist.org/packages/still-code/ar-php-laravel"><img src="https://img.shields.io/packagist/v/still-code/ar-php-laravel" /></a>
-<a href="https://travis-ci.com/still-code/ar-php-laravel"><img src="https://img.shields.io/travis/com/still-code/ar-php-laravel" /></a>
-<a href="https://github.styleci.io/repos/354853609?branch=main"><img src="https://github.styleci.io/repos/354853609/shield?branch=main" /></a>
 <a href="https://packagist.org/packages/still-code/ar-php-laravel"><img src="https://img.shields.io/packagist/dt/still-code/ar-php-laravel" /></a>
 <a href="https://github.com/still-code/ar-php-laravel"><img src="https://img.shields.io/github/stars/still-code/ar-php-laravel" /></a>
-<a href="https://www.codacy.com/gh/still-code/ar-php-laravel/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=still-code/ar-php-laravel&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/c9a1e0c873f346a5839222d5e19499fc"/></a>
+<a href="https://github.com/still-code/ar-php-laravel/actions?query=workflow%3Arun-tests+branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/still-code/ar-php-laravel/run-tests.yml?branch=main&label=tests&style=flat-square" /></a>
+<a href="https://github.com/still-code/ar-php-laravel/actions?query=workflow%3AFix+PHP+code+style+issues+branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/still-code/ar-php-laravel/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square" /></a>
 </p>
 
 # laravel  package for the Ar-PHP Project
