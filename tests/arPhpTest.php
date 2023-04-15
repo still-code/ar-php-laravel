@@ -1,9 +1,9 @@
 <?php
 
-namespace AtmCode\ArPhpLaravel\Tests;
+namespace StillCode\ArPhpLaravel\Tests;
 
-use AtmCode\ArPhpLaravel\ArPhpLaravel;
-use AtmCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
+use StillCode\ArPhpLaravel\ArPhpLaravel;
+use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class arPhpTest extends TestCase
@@ -16,7 +16,7 @@ class arPhpTest extends TestCase
     protected function overrideApplicationProviders()
     {
         return [
-            'ArPhpLaravel' => 'AtmCode\ArPhpLaravel',
+            'ArPhpLaravel' => 'StillCode\ArPhpLaravel',
         ];
     }
 

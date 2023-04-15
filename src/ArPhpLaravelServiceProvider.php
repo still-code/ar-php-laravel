@@ -1,6 +1,6 @@
 <?php
 
-namespace AtmCode\ArPhpLaravel;
+namespace StillCode\ArPhpLaravel;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Query\Builder;
