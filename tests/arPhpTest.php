@@ -2,9 +2,9 @@
 
 namespace StillCode\ArPhpLaravel\Tests;
 
+use Orchestra\Testbench\TestCase;
 use StillCode\ArPhpLaravel\ArPhpLaravel;
 use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
-use Orchestra\Testbench\TestCase;
 
 class arPhpTest extends TestCase
 {

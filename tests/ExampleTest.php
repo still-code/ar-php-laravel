@@ -2,8 +2,8 @@
 
 namespace StillCode\ArPhpLaravel\Tests;
 
-use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
 use Orchestra\Testbench\TestCase;
+use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
 
 class ExampleTest extends TestCase
 {
