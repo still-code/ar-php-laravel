@@ -4,8 +4,8 @@
 <a href="https://packagist.org/packages/still-code/ar-php-laravel"><img src="https://img.shields.io/packagist/v/still-code/ar-php-laravel" /></a>
 <a href="https://packagist.org/packages/still-code/ar-php-laravel"><img src="https://img.shields.io/packagist/dt/still-code/ar-php-laravel" /></a>
 <a href="https://github.com/still-code/ar-php-laravel"><img src="https://img.shields.io/github/stars/still-code/ar-php-laravel" /></a>
-<a href="https://github.com/still-code/ar-php-laravel/actions?query=workflow%3Arun-tests+branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/still-code/ar-php-laravel/run-tests.yml?branch=main&label=tests&style=flat-square" /></a>
 <a href="https://github.com/still-code/ar-php-laravel/actions?query=workflow%3AFix+PHP+code+style+issues+branch%3Amain"><img src="https://img.shields.io/github/actions/workflow/status/still-code/ar-php-laravel/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square" /></a>
+<a href="https://github.com/still-code/ar-php-laravel/actions/workflows/fix-php-code-style-issues.yml"><img src="https://github.com/still-code/ar-php-laravel/actions/workflows/fix-php-code-style-issues.yml/badge.svg" /></a>
 </p>
 
 # laravel  package for the Ar-PHP Project
