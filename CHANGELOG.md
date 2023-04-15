@@ -2,6 +2,14 @@
 
 All notable changes to `ar-php-laravel` will be documented in this file
 
+## 2.0.1 - 2023-04-15
+
+### What's Changed
+
+- updates by @atmonshi in https://github.com/still-code/ar-php-laravel/pull/24
+
+**Full Changelog**: https://github.com/still-code/ar-php-laravel/compare/2.0.0...2.0.1
+
 ## 2.0.0 - 2023-04-15
 
 ### What's Changed
