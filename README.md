@@ -1,12 +1,12 @@
-<p align="center"><img src="https://banners.beyondco.de/AR-php%20for%20Laravel.png?theme=light&packageManager=composer+require&packageName=atm-code%2Far-php-laravel&pattern=wiggle&style=style_2&description=wrapper+for+Ar-PHP+Library+to+use+with+laravel&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&widths=600&heights=650" width="600"></p>
+<p align="center"><img src="https://banners.beyondco.de/AR-php%20for%20Laravel.png?theme=light&packageManager=composer+require&packageName=still-code%2Far-php-laravel&pattern=wiggle&style=style_2&description=wrapper+for+Ar-PHP+Library+to+use+with+laravel&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg&widths=600&heights=650" width="600"></p>
 
 <p align="center">
-<a href="https://packagist.org/packages/atm-code/ar-php-laravel"><img src="https://img.shields.io/packagist/v/atm-code/ar-php-laravel" /></a>
-<a href="https://travis-ci.com/atm-code/ar-php-laravel"><img src="https://img.shields.io/travis/com/atm-code/ar-php-laravel" /></a>
+<a href="https://packagist.org/packages/still-code/ar-php-laravel"><img src="https://img.shields.io/packagist/v/still-code/ar-php-laravel" /></a>
+<a href="https://travis-ci.com/still-code/ar-php-laravel"><img src="https://img.shields.io/travis/com/still-code/ar-php-laravel" /></a>
 <a href="https://github.styleci.io/repos/354853609?branch=main"><img src="https://github.styleci.io/repos/354853609/shield?branch=main" /></a>
-<a href="https://packagist.org/packages/atm-code/ar-php-laravel"><img src="https://img.shields.io/packagist/dt/atm-code/ar-php-laravel" /></a>
-<a href="https://github.com/atm-code/ar-php-laravel"><img src="https://img.shields.io/github/stars/atm-code/ar-php-laravel" /></a>
-<a href="https://www.codacy.com/gh/atm-code/ar-php-laravel/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atm-code/ar-php-laravel&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/c9a1e0c873f346a5839222d5e19499fc"/></a>
+<a href="https://packagist.org/packages/still-code/ar-php-laravel"><img src="https://img.shields.io/packagist/dt/still-code/ar-php-laravel" /></a>
+<a href="https://github.com/still-code/ar-php-laravel"><img src="https://img.shields.io/github/stars/still-code/ar-php-laravel" /></a>
+<a href="https://www.codacy.com/gh/still-code/ar-php-laravel/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=still-code/ar-php-laravel&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/c9a1e0c873f346a5839222d5e19499fc"/></a>
 </p>
 
 # laravel  package for the Ar-PHP Project
@@ -15,7 +15,7 @@ this is just a wrapper to use with laravel for the Ar-PHP Library, for more deta
 ## Installation
 You can install the package via composer:
 ```bash
-composer require atm-code/ar-php-laravel
+composer require still-code/ar-php-laravel
 ```
 
 ## Available functions

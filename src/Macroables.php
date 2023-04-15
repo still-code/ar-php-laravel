@@ -1,6 +1,6 @@
 <?php
 
-namespace AtmCode\ArPhpLaravel;
+namespace StillCode\ArPhpLaravel;
 
 class Macroables
 {

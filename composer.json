@@ -1,8 +1,8 @@
 {
-    "name": "atm-code/ar-php-laravel",
+    "name": "still-code/ar-php-laravel",
     "description": "ar-php-laravel",
     "keywords": [
-        "atm-code",
+        "still-code",
         "ar-php-laravel",
         "laravel",
         "Arabic",
@@ -13,7 +13,7 @@
         "arabic-sql-query",
         "arabic-segments-identifier"
     ],
-    "homepage": "https://github.com/atm-code/ar-php-laravel",
+    "homepage": "https://github.com/still-code/ar-php-laravel",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AtmCode\\ArPhpLaravel\\": "src"
+            "StillCode\\ArPhpLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AtmCode\\ArPhpLaravel\\Tests\\": "tests"
+            "StillCode\\ArPhpLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -52,10 +52,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AtmCode\\ArPhpLaravel\\ArPhpLaravelServiceProvider"
+                "StillCode\\ArPhpLaravel\\ArPhpLaravelServiceProvider"
             ],
             "aliases": {
-                "ArPhpLaravel": "AtmCode\\ArPhpLaravel\\ArPhpLaravelFacade"
+                "ArPhpLaravel": "StillCode\\ArPhpLaravel\\ArPhpLaravelFacade"
             }
         }
     }

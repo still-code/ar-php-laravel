@@ -1,8 +1,8 @@
 <?php
 
-namespace AtmCode\ArPhpLaravel\Tests;
+namespace StillCode\ArPhpLaravel\Tests;
 
-use AtmCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
+use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class ExampleTest extends TestCase
