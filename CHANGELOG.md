@@ -2,6 +2,25 @@
 
 All notable changes to `ar-php-laravel` will be documented in this file
 
+## 2.0.2 - 2023-11-07
+
+### What's Changed
+
+- Updates by @atmonshi in https://github.com/still-code/ar-php-laravel/pull/25
+- Bump dependabot/fetch-metadata from 1.3.6 to 1.4.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/26
+- Bump aglipanci/laravel-pint-action from 2.2.0 to 2.3.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/27
+- Bump dependabot/fetch-metadata from 1.4.0 to 1.5.1 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/28
+- Bump dependabot/fetch-metadata from 1.5.1 to 1.6.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/29
+- Bump stefanzweifel/git-auto-commit-action from 4 to 5 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/31
+- Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/30
+- add support for php 8.2 by @atmonshi in https://github.com/still-code/ar-php-laravel/pull/32
+
+### New Contributors
+
+- @dependabot made their first contribution in https://github.com/still-code/ar-php-laravel/pull/26
+
+**Full Changelog**: https://github.com/still-code/ar-php-laravel/compare/2.0.1...2.0.2
+
 ## 2.0.1 - 2023-04-15
 
 ### What's Changed
