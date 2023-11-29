@@ -42,7 +42,7 @@ dump(ArPhpLaravel::guessGender('محمد')); // Male
 
 #### Parse any Arabic textual datetime description into timestamp
 ``` php
-dump(ArPhpLaravel::strtotime('الخميس القادم', time(), 'l dS F Y'))); // Thursday 13th May 2021
+dump(ArPhpLaravel::strtotime('الخميس القادم', time(), 'l dS F Y')); // Thursday 13th May 2021
 ```
 
 #### Arabic Sentiment Analysis
@@ -85,13 +85,13 @@ dump(ArPhpLaravel::translate('اهلا بالكل')); // Ahla Balkl
 ### Search with Eloquent and query Builder
 Using search for arabic letters with Eloquent Builder
 ```php
-Model::searchAr('content','فلسطين')->get();
+Model::searchAr('فلسطين','content')->get();
 ```
 
 
 you can use the same with Query Builder:
 ```php
-DB::table('table_name')->searchAr('content','فلسطين')->get();
+DB::table('table_name')->searchAr('فلسطين','content')->get();
 ```
 
 
@@ -106,7 +106,7 @@ and it will find result for any of the words:
 
 you can also sort the results by using:
 ```php
-DB::table('table_name')->orderAr('content','فلسطين')->get();
+DB::table('table_name')->orderAr('فلسطين','content')->get();
 ```
 
 ## Used By
