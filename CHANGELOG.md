@@ -2,6 +2,23 @@
 
 All notable changes to `ar-php-laravel` will be documented in this file
 
+## 2.0.3 - 2024-04-02
+
+### What's Changed
+
+* Update README.md by @Smailancer in https://github.com/still-code/ar-php-laravel/pull/33
+* Bump aglipanci/laravel-pint-action from 2.3.0 to 2.3.1 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/34
+* Bump ramsey/composer-install from 2 to 3 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/35
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/36
+* [Upgrade] Added support for Laravel 11 by @GoodM4ven in https://github.com/still-code/ar-php-laravel/pull/37
+
+### New Contributors
+
+* @Smailancer made their first contribution in https://github.com/still-code/ar-php-laravel/pull/33
+* @GoodM4ven made their first contribution in https://github.com/still-code/ar-php-laravel/pull/37
+
+**Full Changelog**: https://github.com/still-code/ar-php-laravel/compare/2.0.2...2.0.3
+
 ## 2.0.2 - 2023-11-07
 
 ### What's Changed
