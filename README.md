@@ -97,7 +97,7 @@ DB::table('table_name')->searchAr('فلسطين','content')->get();
 
 you can set the search mode `OR` (default) or `AND`
 ```php
-DB::table('table_name')->searchAr('content','فلسطين','OR')->get();
+DB::table('table_name')->searchAr('فلسطين','content','OR')->get();
 ```
 
 
@@ -108,10 +108,6 @@ you can also sort the results by using:
 ```php
 DB::table('table_name')->orderAr('فلسطين','content')->get();
 ```
-
-## Used By
-This project is used by the following companies:
-- [arabkey - عرب كيبورد](https://arabkey.site)
 
 ## Testing
 ``` bash
