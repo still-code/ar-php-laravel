@@ -2,6 +2,19 @@
 
 All notable changes to `ar-php-laravel` will be documented in this file
 
+## 2.0.4 - 2025-03-02
+
+### What's Changed
+
+* Bump aglipanci/laravel-pint-action from 2.3.1 to 2.4 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/38
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/39
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/42
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/43
+* Bump aglipanci/laravel-pint-action from 2.4 to 2.5 by @dependabot in https://github.com/still-code/ar-php-laravel/pull/44
+* support laravel 12 by @atmonshi in https://github.com/still-code/ar-php-laravel/pull/45
+
+**Full Changelog**: https://github.com/still-code/ar-php-laravel/compare/2.0.3...2.0.4
+
 ## 2.0.3 - 2024-04-02
 
 ### What's Changed
