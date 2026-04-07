@@ -8,16 +8,9 @@ use StillCode\ArPhpLaravel\ArPhpLaravelServiceProvider;
 
 class arPhpTest extends TestCase
 {
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [ArPhpLaravelServiceProvider::class];
-    }
-
-    protected function overrideApplicationProviders($app)
-    {
-        return [
-            'ArPhpLaravel' => 'StillCode\ArPhpLaravel',
-        ];
     }
 
     /** @test */

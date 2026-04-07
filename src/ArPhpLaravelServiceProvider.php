@@ -11,7 +11,7 @@ class ArPhpLaravelServiceProvider extends ServiceProvider
     /**
      * Bootstrap the application services.
      */
-    public function boot()
+    public function boot(): void
     {
         $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'arPhpLaravel');
     }
@@ -19,11 +19,11 @@ class ArPhpLaravelServiceProvider extends ServiceProvider
     /**
      * Register the application services.
      */
-    public function register()
+    public function register(): void
     {
         // Register the main class to use with the facade
-        $this->app->singleton('ar-php-laravel', function () {
-            return new ArPhpLaravel();
+        $this->app->singleton(ArPhpLaravel::class, function () {
+            return new ArPhpLaravel;
         });
 
         /**
