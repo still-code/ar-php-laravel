@@ -2,6 +2,25 @@
 
 All notable changes to `ar-php-laravel` will be documented in this file
 
+## 3.0.0 - 2026-04-07
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/46
+* Bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/48
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/52
+* Bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/54
+* Bump ramsey/composer-install from 3 to 4 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/53
+* Bump actions/checkout from 4 to 6 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/51
+* Bump stefanzweifel/git-auto-commit-action from 5 to 7 by @dependabot[bot] in https://github.com/still-code/ar-php-laravel/pull/50
+* add: support for Laravel 13 with PHP ^8.2 by @alkoumi in https://github.com/still-code/ar-php-laravel/pull/56
+
+### New Contributors
+
+* @alkoumi made their first contribution in https://github.com/still-code/ar-php-laravel/pull/56
+
+**Full Changelog**: https://github.com/still-code/ar-php-laravel/compare/2.0.4...3.0.0
+
 ## 2.0.4 - 2025-03-02
 
 ### What's Changed
